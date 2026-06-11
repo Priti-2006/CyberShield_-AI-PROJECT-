@@ -149,5 +149,57 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    background-image:
+      radial-gradient(at 20% 0%, oklch(0.4 0.2 290 / 0.25), transparent 50%),
+      radial-gradient(at 80% 10%, oklch(0.4 0.2 240 / 0.2), transparent 55%),
+      radial-gradient(at 50% 100%, oklch(0.35 0.18 270 / 0.18), transparent 60%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
+
+@utility glass-card {
+  background: color-mix(in oklab, var(--card) 70%, transparent);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-card);
+}
+
+@utility glow-primary {
+  box-shadow: var(--shadow-glow);
+}
+
+@utility gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 oklch(0.65 0.22 295 / 0.6); }
+  70% { box-shadow: 0 0 0 12px oklch(0.65 0.22 295 / 0); }
+  100% { box-shadow: 0 0 0 0 oklch(0.65 0.22 295 / 0); }
+}
+
+@utility pulse-dot {
+  animation: pulse-ring 2s infinite;
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@utility scan-line {
+  position: relative;
+  overflow: hidden;
+}
+@utility scan-line-after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent, oklch(0.65 0.22 295 / 0.15), transparent);
+  animation: scan 2.5s linear infinite;
   }
 }
