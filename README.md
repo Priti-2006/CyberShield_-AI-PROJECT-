@@ -15,7 +15,7 @@ AI-powered cybersecurity assistant developed for the Microsoft Agents League Hac
 - GitHub
 
 ## Architecture
-
+![Architecture Diagram](architecture.png)
 
 
 ## Demo
