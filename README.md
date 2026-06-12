@@ -21,5 +21,8 @@ AI-powered cybersecurity assistant developed for the Microsoft Agents League Hac
 ## Demo
 (Add demo video link here)
 
+## Presentation
+[Project Presentation](CyberShield-AI micro ppt.pdf)
+
 ## Author
 Priti Ranjit
