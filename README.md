@@ -72,7 +72,7 @@ Dark cybersecurity dashboard with:
 [CyberShield-AI Micro PPT](CyberShield-AI%20micro%20ppt.pdf)
 
 ## Architecture
-![Architecture](architecture.png)
+![Architecture](architecture.png.png)
 
 ## Author
 Priti Ranjit
