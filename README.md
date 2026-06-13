@@ -74,5 +74,9 @@ Dark cybersecurity dashboard with:
 ## Architecture
 ![Architecture](architecture.png.png)
 
+## Demo Video
+
+[Watch Demo Video](https://drive.google.com/file/d/1S-kc0SkbUmf5TROna70zdHAIKYrS819W/view?usp=sharing)
+
 ## Author
 Priti Ranjit
