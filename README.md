@@ -68,6 +68,11 @@ Dark cybersecurity dashboard with:
 - Animated scan-line and glow effects
 - Real-time status indicators
 
-## Author
+## Presentation
+[CyberShield-AI Micro PPT](CyberShield-AI%20micro%20ppt.pdf)
 
+## Architecture
+![Architecture](architecture.png)
+
+## Author
 Priti Ranjit
